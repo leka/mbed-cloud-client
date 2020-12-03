@@ -26,7 +26,7 @@ extern "C" {
 #include "PAL-Impl/Services-API/pal_configuration.h"
 #include "PAL-Impl/Services-API/pal_macros.h"
 #include "PAL-Impl/Services-API/pal_errors.h"
-#include "PAL-Impl/Services-API/pal_types.h"
+#include "PAL-Impl/Services-API/mbed_cloud_pal_types.h"
 
 //includes for modules headers.
 #include "PAL-Impl/Services-API/pal_drbg.h"
@@ -36,7 +36,7 @@ extern "C" {
 #include "PAL-Impl/Services-API/pal_network.h"
 #include "PAL-Impl/Services-API/pal_time.h"
 #include "PAL-Impl/Services-API/pal_TLS.h"
-#include "PAL-Impl/Services-API/pal_Crypto.h"
+#include "PAL-Impl/Services-API/mbed_cloud_pal_Crypto.h"
 #include "PAL-Impl/Services-API/pal_entropy.h"
 #include "PAL-Impl/Services-API/pal_update.h"
 #include "PAL-Impl/Services-API/pal_internalFlash.h"
